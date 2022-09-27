@@ -1,0 +1,30 @@
+.max-height {
+  min-height: 100vh;
+}
+body {
+  background: #1B1B1B;
+}
+.quote-container {
+  background: #343434;
+  -webkit-box-shadow: -12px 11px 23px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 11px 23px -4px rgba(0,0,0,0.75);
+box-shadow: -12px 11px 23px -4px rgba(0,0,0,0.75);
+}
+#generate-btn {
+  color: white !important;
+  background: #572157 !important;
+  border-color: #572157 !important;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 1s;
+}
+#generate-btn:hover {
+  background: #FFFF!important;
+  border-color: #572157 !important;
+  color: #572157 !important;
+  font-size: 1.5rem;
+}
+.author {
+  color: #FFFF;
+  font-size: 1.5rem;
+}
